@@ -28,6 +28,9 @@ class program
             case "d":
                 Console.WriteLine(x + " / " + y + " = " + (x / y));
                 break;
+            default:
+                Console.WriteLine("Du har int valt mellan a,b,c och d");
+                break;
         }
 
 
